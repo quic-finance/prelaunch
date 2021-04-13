@@ -29,11 +29,11 @@ const RewardUpdateModal: React.FC<RewardUpdateModalProps> = ({
 
 	return (
 		<Modal>
-			<ModalTitle text={`Update the Reward of QUIC Tokens`} />
+			<ModalTitle text={`Update the Block Reward QUIC Tokens`} />
 			<Input 
 				endAdornment={
 					<StyledTokenAdornmentWrapper>
-						<StyledTokenSymbol>Reward</StyledTokenSymbol>
+						<StyledTokenSymbol>Amount </StyledTokenSymbol>
 						<StyledSpacer />
 		
 					</StyledTokenAdornmentWrapper>

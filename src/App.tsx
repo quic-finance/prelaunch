@@ -11,7 +11,7 @@ import QuicProvider from './contexts/QuicProvider'
 import useModal from './hooks/useModal'
 import theme from './theme'
 import Farms from './views/Farms'
-import Home from './views/Home'
+import PreLaunch from './views/PreLaunch'
 import Admin from './views/Admin'
 
 const url = new URL(window.location.toString())
@@ -40,7 +40,7 @@ const App: React.FC = () => {
 				<MobileMenu onDismiss={handleDismissMobileMenu} visible={mobileMenu} />
 				<Switch>
 					<Route path="/" exact>
-						<Home />
+						<PreLaunch />
 					</Route>
 					<Route path="/farms">
 						<Farms />

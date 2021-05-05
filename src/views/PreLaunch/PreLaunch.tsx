@@ -48,7 +48,7 @@ const PreLaunch: React.FC = () => {
 			<Spacer size="lg" />
 			<StyledInfo>
 				Launching in<Countdown
-									date={1621083600}
+									date={1621083600000}
 									renderer={renderer}
 								/>
 			</StyledInfo>
